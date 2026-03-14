@@ -1,0 +1,36 @@
+.class public interface abstract Lorg/apache/poi/ss/usermodel/ObjectData;
+.super Ljava/lang/Object;
+.source "ObjectData.java"
+
+# interfaces
+.implements Lorg/apache/poi/ss/usermodel/SimpleShape;
+
+
+# virtual methods
+.method public abstract getDirectory()Lorg/apache/poi/poifs/filesystem/DirectoryEntry;
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+.end method
+
+.method public abstract getFileName()Ljava/lang/String;
+.end method
+
+.method public abstract getOLE2ClassName()Ljava/lang/String;
+.end method
+
+.method public abstract getObjectData()[B
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+.end method
+
+.method public abstract getPictureData()Lorg/apache/poi/ss/usermodel/PictureData;
+.end method
+
+.method public abstract hasDirectoryEntry()Z
+.end method

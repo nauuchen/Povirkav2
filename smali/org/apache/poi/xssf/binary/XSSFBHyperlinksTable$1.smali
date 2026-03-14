@@ -1,0 +1,14 @@
+.class synthetic Lorg/apache/poi/xssf/binary/XSSFBHyperlinksTable$1;
+.super Ljava/lang/Object;
+.source "XSSFBHyperlinksTable.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lorg/apache/poi/xssf/binary/XSSFBHyperlinksTable;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1008
+    name = null
+.end annotation

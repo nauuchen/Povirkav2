@@ -1,0 +1,39 @@
+.class public interface abstract Lorg/apache/poi/sl/usermodel/PictureData;
+.super Ljava/lang/Object;
+.source "PictureData.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lorg/apache/poi/sl/usermodel/PictureData$PictureType;
+    }
+.end annotation
+
+
+# virtual methods
+.method public abstract getChecksum()[B
+.end method
+
+.method public abstract getContentType()Ljava/lang/String;
+.end method
+
+.method public abstract getData()[B
+.end method
+
+.method public abstract getImageDimension()Ljava/awt/Dimension;
+.end method
+
+.method public abstract getImageDimensionInPixels()Ljava/awt/Dimension;
+.end method
+
+.method public abstract getType()Lorg/apache/poi/sl/usermodel/PictureData$PictureType;
+.end method
+
+.method public abstract setData([B)V
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+.end method
