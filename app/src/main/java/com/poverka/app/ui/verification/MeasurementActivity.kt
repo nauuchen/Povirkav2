@@ -194,7 +194,8 @@ class MeasurementActivity : AppCompatActivity() {
     }
 
     private fun showRepeatConfirmDialog() {
-        // UNLIMITED retry attempts - no counter shown, just confirmation dialog
+        // UNLIMITED retry attempts (by design requirement) — no counter is shown.
+        // The dialog asks for confirmation but does not impose any retry limit.
         AlertDialog.Builder(this)
             .setTitle(getString(R.string.confirm_your_choise))
             .setMessage(getString(R.string.repeat_measurement_confirm))

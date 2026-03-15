@@ -4,6 +4,11 @@ import android.app.Service
 import android.content.Intent
 import android.os.IBinder
 
+/**
+ * Background service that performs cleanup when the app task is removed (swiped away from recents).
+ * Started in MainActivity and configured with stopWithTask=false so it receives the
+ * [onTaskRemoved] callback even when the app is fully closed by the user.
+ */
 class ExitService : Service() {
 
     override fun onBind(intent: Intent?): IBinder? = null
