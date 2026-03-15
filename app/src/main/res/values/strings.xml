@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Поверка</string>
+
+    <!-- Main screen -->
+    <string name="main_button_start_local">Розпочати роботу</string>
+    <string name="main_button_tasks">Обрати заявку</string>
+    <string name="main_button_start_dispatcher">Без заявки</string>
+    <string name="main_view_loaded_city">Завантажені вулиці:</string>
+    <string name="main_view_loaded_city_value">Завантажені вулиці: %s</string>
+    <string name="main_view_environment_settings">Параметри повітря:</string>
+    <string name="main_view_environment_settings_value">Параметри повітря: %d°C, %d%%</string>
+    <string name="version_format">v%s</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Налаштування</string>
+    <string name="settings_ip">IP установки</string>
+    <string name="settings_button_default_ip">192.168.43.140</string>
+    <string name="settings_button_load_address">Завантажити вулиці</string>
+    <string name="settings_button_load_data_server">Завантажити бази типів, тестів</string>
+    <string name="settings_button_load_data_local">Локальне завантаження</string>
+    <string name="settings_button_check_apk_update">Перевірити наявність оновлень</string>
+    <string name="settings_button_set_environment">Параметри повітря</string>
+    <string name="settings_button_metrologist_name">Ім\'я повірника</string>
+    <string name="settings_button_re_send_protocol">Повтор відправлення протоколу</string>
+    <string name="settings_button_reset_protocol_number">Скидання лічильника протоколів</string>
+    <string name="settings_button_support">Підтримка</string>
+    <string name="settings_button_version_info">Версія</string>
+    <string name="settings_button_save">OK</string>
+    <string name="settings_switch_dispatcher">Режим диспетчера</string>
+    <string name="settings_payment_account">Рахунок на оплату</string>
+    <string name="settings_language">Мова</string>
+    <string name="station_number">Номер установки</string>
+    <string name="station_number_hint">Номер установки</string>
+    <string name="databases_section">Бази даних</string>
+    <string name="not_set">Не встановлено</string>
+    <string name="databases_downloaded">Бази даних завантажено</string>
+    <string name="environment_values_format">Т: %d°C, В: %d%%</string>
+
+    <!-- State screen -->
+    <string name="state_img_description">Фото лічильника</string>
+    <string name="state_view_file_name">Стан установки</string>
+    <string name="state_view_temperature">Температура:</string>
+    <string name="state_button_show_state">Показати стан</string>
+    <string name="state_button_repeat_photo">Повторити фото</string>
+    <string name="state_button_select_test">Обрати тест</string>
+    <string name="state_button_start">Розпочати повірку</string>
+    <string name="station_state_format">Т: %.1f°C, В: %.0f%%, Заряд: %d%%</string>
+    <string name="counter_info_format">Лічильник: %s, Об\'єм: %d, Рік: %d</string>
+    <string name="environment_short">Т: %d°C, В: %d%%</string>
+    <string name="select_test">Оберіть тест</string>
+    <string name="need_to_load_tests">Необхідно завантажити базу тестів</string>
+    <string name="test_selected">Тест обрано</string>
+    <string name="need_counter_info">Необхідно ввести інформацію про лічильник</string>
+
+    <!-- Measurement screen -->
+    <string name="test_view_test_name">Тест</string>
+    <string name="test_view_test_settings">Параметри тесту</string>
+    <string name="test_button_test_start">Розпочати тест</string>
+    <string name="test_view_low">Мін</string>
+    <string name="test_view_high">Макс</string>
+    <string name="test_view_cur_con">0.00</string>
+    <string name="test_view_cur_avrg">Середнє: —</string>
+    <string name="test_view_time_left">Залишилось: —</string>
+    <string name="repeat_measurement">Повторити</string>
+    <string name="next_measurement">Наступний</string>
+    <string name="measurement_photo">Фото виміру</string>
+    <string name="test_format">Тест %d</string>
+    <string name="test_settings_default">—</string>
+    <string name="consumption_format">%.3f м³/год</string>
+    <string name="avg_consumption_format">Середнє: %.3f</string>
+    <string name="time_left_format">Залишилось: %d с</string>
+    <string name="pressure_format">Тиск: %d кПа</string>
+    <string name="cancel_measurement_confirm">Ви впевнені, що хочете скасувати повірку?</string>
+    <string name="next_measurement_confirm">Перейти до наступного виміру?</string>
+    <string name="repeat_measurement_confirm">Повторити поточний вимір?</string>
+    <string name="protocol_sent">Протокол надіслано</string>
+
+    <!-- Image screen -->
+    <string name="counter_photo">Фото лічильника</string>
+    <string name="volume_hint">Об\'єм (5 цифр)</string>
+    <string name="year_hint">Рік (4 цифри)</string>
+    <string name="barcode_result">Результат сканування</string>
+    <string name="scan_barcode">Сканувати</string>
+    <string name="scan_barcode_prompt">Скануйте штрихкод лічильника</string>
+    <string name="confirm">Підтвердити</string>
+    <string name="need_counter_number">Введіть номер лічильника</string>
+
+    <!-- Task viewer -->
+    <string name="date">Дата</string>
+    <string name="time">Час</string>
+    <string name="address">Адреса</string>
+    <string name="client">Клієнт</string>
+    <string name="status">Статус</string>
+    <string name="in_task">В роботі</string>
+    <string name="task_done">Виконано</string>
+    <string name="no_task">Без заявки</string>
+    <string name="ordered_done">Викон.</string>
+    <string name="task_viewer_button_clean">Очистити</string>
+    <string name="task_viewer_button_load">Завантажити заявки</string>
+    <string name="all_tasks_are_done">Усі заявки виконано</string>
+    <string name="task_details">Деталі заявки</string>
+    <string name="start_verification">Розпочати повірку</string>
+    <string name="clean_completed_confirm">Видалити виконані заявки?</string>
+    <string name="tasks_loaded">Завантажено заявок: %d</string>
+
+    <!-- Client screen -->
+    <string name="connection_status">Статус з\'єднання:</string>
+    <string name="connected">Під\'єднано</string>
+    <string name="disconnected">Відключено</string>
+    <string name="connect">Підключитись</string>
+    <string name="disconnect">Відключитись</string>
+
+    <!-- Protocol screens -->
+    <string name="protocol_date">Дата протокола</string>
+    <string name="protocol_not_found">Протокол не знайдено</string>
+    <string name="protocol_is_missing">Протокол не знайдено</string>
+    <string name="protocol_number_for_date">Номер за обрану дату</string>
+    <string name="protocol_number_has_to_be_grater_0">Номер протоколу повинен бути більшим ніж 0</string>
+    <string name="protocol_number_has_to_be_numeric">Номер протоколу повинен бути цілим числом</string>
+    <string name="protocol_number_hint">Номер протоколу</string>
+    <string name="new_protocol_number_hint">Новий номер</string>
+    <string name="load_protocols">Завантажити протоколи</string>
+    <string name="resend">Надіслати повторно</string>
+    <string name="resend_protocol_confirm">Надіслати протокол №%d повторно?</string>
+    <string name="get_current_number">Отримати поточний номер</string>
+    <string name="reset_number">Скинути номер</string>
+    <string name="reset_protocol_number_confirm">Встановити номер протоколу %d?</string>
+
+    <!-- Common -->
+    <string name="saved">Збережено</string>
+    <string name="alert">Увага</string>
+    <string name="confirm_your_choise">Підтвердіть свій вибір</string>
+    <string name="dismiss">Скасувати</string>
+    <string name="dismissed">Відхилено</string>
+    <string name="yes">Так</string>
+    <string name="no">Ні</string>
+    <string name="cancel">Скасувати</string>
+    <string name="ok">OK</string>
+    <string name="error_message">Помилка: %s</string>
+    <string name="error_occurred_no_station">Станцію не знайдено</string>
+    <string name="error_occurred_server_downloading">Виникла помилка під час завантаження з сервера</string>
+    <string name="error_occurred_cities_downloading">Виникла помилка під час завантаження міст</string>
+    <string name="error_occurred_streets_downloading">Виникла помилка під час завантаження вулиць</string>
+    <string name="error_occurred_types_loading">Виникла помилка під час завантаження бази типів приладів з сервера</string>
+    <string name="error_occurred_tests_loading">Виникла помилка під час завантаження бази тестів з сервера</string>
+    <string name="error_occurred_update_checking">Виникла помилка під час перевірки оновлень</string>
+    <string name="need_to_set_ip">Спершу необхідно ввести IP адресу установки</string>
+    <string name="need_to_set_station">Необхідно вказати номер установки</string>
+    <string name="need_to_load_address">Необхідно завантажити базу вулиць</string>
+    <string name="wrong_ip_format">Неправильний формат IP адреси</string>
+    <string name="enter_ip">Введіть IP адресу</string>
+    <string name="enter_metrologist_name">Введіть ім\'я повірника</string>
+    <string name="address_loaded">Вулиці завантажено</string>
+    <string name="select_city_address">Оберіть довідник вулиць міста</string>
+    <string name="no_updates_available">Оновлень немає</string>
+    <string name="deleted_tasks_number">Заявок видалено: %d</string>
+
+    <!-- Client info -->
+    <string name="client_counter_number">Номер лічильника</string>
+    <string name="client_surname">ПІБ</string>
+    <string name="client_note">Коментар</string>
+    <string name="client_service_type">Тип послуги</string>
+    <string name="client_id_number">№ заявки</string>
+    <string name="client_personal_account">№ особового рахунку</string>
+    <string name="client_street">Вулиця</string>
+
+    <!-- Environment -->
+    <string name="temperature">Температура (°C)</string>
+    <string name="humidity">Вологість (%)</string>
+    <string name="pressure">Тиск (кПа)</string>
+    <string name="environment_measurement">Зміна параметрів повітря</string>
+
+    <!-- Errors -->
+    <string name="error_year">Необхідно заповнити поле \"Рік\", 4 символи</string>
+    <string name="error_volume_size">Поле \"Об\'єм\" повинно складати 5 символів</string>
+</resources>
