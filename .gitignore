@@ -1,0 +1,26 @@
+# Gradle files
+.gradle/
+build/
+app/build/
+
+# Android files
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Local configuration file (may contain sensitive data)
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+
+# Keystore
+*.jks
+*.keystore
+
+# OkHttp logging (only include if explicitly added)

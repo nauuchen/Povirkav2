@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App colors - Black & White monochrome theme -->
+    <color name="primary">#000000</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="primary_variant">#212121</color>
+    <color name="secondary">#424242</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="background">#FFFFFF</color>
+    <color name="on_background">#000000</color>
+    <color name="surface">#F5F5F5</color>
+    <color name="on_surface">#000000</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="text_primary">#000000</color>
+    <color name="text_secondary">#757575</color>
+    <color name="error">#B00020</color>
+
+    <!-- Pressure warning colors - MUST remain very noticeable -->
+    <color name="pressure_red">#E53935</color>     <!-- softened from #FF0000 -->
+    <color name="pressure_green">#43A047</color>   <!-- softened from #00FF00 -->
+    <color name="pressure_blue">#1E88E5</color>    <!-- softened from #0000FF -->
+</resources>
