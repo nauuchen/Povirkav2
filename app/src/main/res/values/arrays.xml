@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dn_types">
+        <item>DN 15</item>
+        <item>DN 20</item>
+        <item>DN 25</item>
+        <item>DN 32</item>
+        <item>DN 40</item>
+        <item>DN 50</item>
+        <item>DN 65</item>
+        <item>DN 80</item>
+        <item>DN 100</item>
+    </string-array>
+</resources>

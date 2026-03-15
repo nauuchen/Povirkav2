@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:keepScreenOn="true">
+
+    <!-- Status bar top row -->
+    <LinearLayout
+        android:id="@+id/statusBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textLoadedCity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_secondary"
+                android:textSize="12sp"
+                android:text="@string/main_view_loaded_city" />
+
+            <TextView
+                android:id="@+id/textEnvironmentSettings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_secondary"
+                android:textSize="12sp"
+                android:text="@string/main_view_environment_settings" />
+
+            <TextView
+                android:id="@+id/textCurrentTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_secondary"
+                android:textSize="12sp"
+                android:text="@string/main_view_cur_time" />
+
+            <TextView
+                android:id="@+id/textCoordinatesStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_secondary"
+                android:textSize="12sp"
+                android:text="@string/main_view_coordinates_time" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="end">
+
+            <TextView
+                android:id="@+id/textVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_secondary"
+                android:textSize="11sp" />
+
+            <ImageButton
+                android:id="@+id/buttonSettings"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@android:color/transparent"
+                android:padding="4dp"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/settings"
+                app:srcCompat="@drawable/ic_settings" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Main buttons centered -->
+    <LinearLayout
+        android:id="@+id/buttonsContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonMainStart"
+            android:layout_width="280dp"
+            android:layout_height="72dp"
+            android:text="@string/main_button_start_local"
+            android:textSize="18sp"
+            android:layout_marginEnd="16dp"
+            app:strokeColor="@color/primary"
+            app:strokeWidth="2dp"
+            style="@style/Widget.Poverka.Button.Outlined" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonMainTasks"
+            android:layout_width="280dp"
+            android:layout_height="72dp"
+            android:text="@string/main_button_tasks"
+            android:textSize="18sp"
+            style="@style/Widget.Poverka.Button" />
+
+    </LinearLayout>
+
+    <!-- Secondary buttons at bottom -->
+    <LinearLayout
+        android:id="@+id/secondaryButtons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonResend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_button_re_send_protocol"
+            android:textSize="13sp"
+            android:layout_marginEnd="16dp"
+            style="@style/Widget.Poverka.Button.Text" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonResetProtocol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reset_protocol_number_title"
+            android:textSize="13sp"
+            style="@style/Widget.Poverka.Button.Text" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
