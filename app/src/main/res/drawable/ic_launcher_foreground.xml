@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Simple water drop icon representing water meter verification -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,20 L35,55 C35,66.05 43.95,75 55,75 C66.05,75 75,66.05 75,55 C75,55 54,20 54,20 Z"/>
+    <path
+        android:fillColor="#CCCCCC"
+        android:pathData="M54,35 L44,55 C44,61.63 49.37,67 56,67 C62.63,67 68,61.63 68,55 C68,55 54,35 54,35 Z"/>
+</vector>

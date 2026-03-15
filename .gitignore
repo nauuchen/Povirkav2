@@ -1,0 +1,28 @@
+# Gradle
+.gradle/
+build/
+app/build/
+*.class
+
+# Android
+local.properties
+*.apk
+*.aab
+*.dex
+
+# IntelliJ/Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+
+# Kotlin
+*.kotlin_module
+
+# Node
+node_modules/
+
+# Generated files
+gen/
+out/

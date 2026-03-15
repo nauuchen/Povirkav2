@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Повірка</string>
+
+    <!-- Main Activity -->
+    <string name="main_button_start_local">Розпочати роботу</string>
+    <string name="main_button_tasks">Обрати заявку</string>
+    <string name="main_button_load">Завантажити файли</string>
+    <string name="main_button_map">Показати карту</string>
+    <string name="main_button_start_dispatcher">Без заявки</string>
+    <string name="main_view_dispatcher">База заявок: підключена</string>
+    <string name="main_view_loaded_city">Завантажені вулиці:</string>
+    <string name="main_view_loaded_city_value">Завантажені вулиці: %s</string>
+    <string name="main_view_environment_settings">Параметри повітря:</string>
+    <string name="main_view_coordinates_time">Отримання координат..</string>
+    <string name="main_view_coordinates_time_head">Дата і час координат</string>
+    <string name="main_view_cur_time">12.12.2020 12:12:12</string>
+    <string name="main_view_cur_time_head">Поточні дата і час</string>
+    <string name="version_format">v%s</string>
+    <string name="environment_info_format">T: %d°C  H: %d%%  P: %d мм.рт.ст.</string>
+    <string name="coordinates_format">%.4f, %.4f</string>
+
+    <!-- Settings -->
+    <string name="settings">Налаштування</string>
+    <string name="settings_saved">Зберегти</string>
+    <string name="enter_ip">Введіть IP адресу</string>
+    <string name="enter_metrologist_name">Введіть ім\'я повірника</string>
+    <string name="load_towns">Завантажити міста</string>
+    <string name="load_streets">Завантажити вулиці</string>
+    <string name="load_types">Завантажити типи</string>
+    <string name="load_tests">Завантажити тести</string>
+    <string name="select_town_first">Спочатку оберіть місто</string>
+    <string name="load_streets_first">Спочатку завантажте вулиці</string>
+    <string name="load_towns_first">Спочатку завантажте міста</string>
+    <string name="cities_loaded">Міста завантажено</string>
+    <string name="address_loaded">Вулиці завантажено</string>
+    <string name="check_update">Перевірити оновлення</string>
+    <string name="select">Оберіть</string>
+    <string name="settings_button_re_send_protocol">Повтор відправлення протоколу</string>
+    <string name="alert_restart_station">Для застосування змін потрібно обов\'язково перезавантажити установку</string>
+
+    <!-- State Activity -->
+    <string name="counter_state">Стан лічильника</string>
+    <string name="station">Установка</string>
+    <string name="connecting">Підключення...</string>
+    <string name="connected">Під\'єднано</string>
+    <string name="station_number_format">№ установки: %d</string>
+    <string name="version_station_format">Версія ПЗ: %s</string>
+    <string name="scan_barcode">Сканувати штрих-код</string>
+    <string name="scan_barcode_hint">Наведіть камеру на штрих-код</string>
+    <string name="next">Далі</string>
+    <string name="year">Рік</string>
+    <string name="required_field">Обов\'язкове поле</string>
+
+    <!-- Client Activity -->
+    <string name="client">Клієнт</string>
+    <string name="client_apartment">Квартира</string>
+    <string name="client_building">Дім</string>
+    <string name="client_city">Місто</string>
+    <string name="client_counter_number">Номер лічильника</string>
+    <string name="client_date_time">Дата повірки</string>
+    <string name="client_district">Район</string>
+    <string name="client_email">E-mail</string>
+    <string name="client_hint_bukva">літера</string>
+    <string name="client_hint_email">e-mail</string>
+    <string name="client_hint_korpus">корпус</string>
+    <string name="client_hint_note">коментар</string>
+    <string name="client_hint_number">номер</string>
+    <string name="client_hint_phone_dop">тел. додатковий</string>
+    <string name="client_hint_phone_dop2">тел. додатковий 2</string>
+    <string name="client_hint_phone_main">тел. основний</string>
+    <string name="client_hint_seal">№ пломби</string>
+    <string name="client_id_number">№ заявки</string>
+    <string name="client_note">Коментар</string>
+    <string name="client_payment_account">№ рахунку на оплату</string>
+    <string name="client_personal_account">№ особового рахунку</string>
+    <string name="client_phone_number">Телефон</string>
+    <string name="client_protocol_number">№ протоколу</string>
+    <string name="client_seal_number">№ пломби</string>
+    <string name="client_service_type">Тип послуги</string>
+    <string name="client_street">Вулиця</string>
+    <string name="client_surname">ПІБ</string>
+    <string name="fill_client">Заповнити</string>
+    <string name="clear_client">Очистити</string>
+    <string name="start_measurement">Розпочати повірку</string>
+
+    <!-- Measurement Activity -->
+    <string name="verification">Повірка</string>
+    <string name="waiting_for_connection">Очікування підключення...</string>
+    <string name="current_flow_format">Поточна витрата: %.3f м³/год</string>
+    <string name="avg_flow_format">Середня витрата: %.3f м³/год</string>
+    <string name="volume_format">Об\'єм: %.4f м³</string>
+    <string name="temperature_format">Температура: %.1f °C</string>
+    <string name="pressure_format">Тиск: %.1f мм.рт.ст.</string>
+    <string name="temperature_inner_format">Темп. всередині: %.1f °C</string>
+    <string name="current_flow_default">Поточна витрата: -</string>
+    <string name="avg_flow_default">Середня витрата: -</string>
+    <string name="volume_default">Об\'єм: -</string>
+    <string name="temperature_default">Температура: -</string>
+    <string name="pressure_default">Тиск: -</string>
+    <string name="finish">Завершити</string>
+    <string name="save_and_exit">Зберегти і вийти</string>
+    <string name="need_to_finish_verification">Необхідно завершити повірку</string>
+    <string name="protocol_uploaded">Протокол відправлено</string>
+    <string name="protocol_saved_locally">Протокол збережено локально. Відправити пізніше через \'Повтор відправлення\'.</string>
+    <string name="need_to_repeat_test_photo">Необхідно повторити тестову фотографію</string>
+    <string name="state_button_repeat_photo">Повторити фото</string>
+
+    <!-- Retry dialog - UNLIMITED retries (key change from original) -->
+    <string name="repeat_measurement_title">Повтор вимірювання</string>
+    <string name="sure_want_repeat_unlimited" formatted="false">Дійсно бажаєте повторити вимірювання №%d?</string>
+    <!-- Original string kept for reference but unlimited version used in new app -->
+    <string name="sure_want_repeat" formatted="false">Дійсно бажаєте повторити вимірювання №%d?
+Повторів лишилось: %d</string>
+    <string name="repeat_limit_reached">Ліміт повторів вичерпано</string>
+
+    <!-- Measurement results -->
+    <string name="consumption_valid">В межах</string>
+    <string name="consumption_invalid">Поза межами</string>
+    <string name="average_consumption_problem">Середня витрата виміру %s допустимо</string>
+
+    <!-- Warnings -->
+    <string name="alert">Увага</string>
+    <string name="delta_temperature_fail">Температура змінилася більше ніж допустимо</string>
+    <string name="global_temperature_fail">Температурний діапазон не відповідає обраному тесту</string>
+    <string name="check_selected_test_and_temperature">Перевірте відповідність теста і температури</string>
+
+    <!-- Task Activity -->
+    <string name="load_tasks">Завантаження заявок</string>
+    <string name="tasks">Заявки</string>
+    <string name="download_tasks">Завантажити заявки</string>
+    <string name="view_tasks">Переглянути заявки</string>
+    <string name="no_tasks_loaded">Заявки не завантажено</string>
+    <string name="tasks_loaded_count">Завантажено заявок: %d</string>
+    <string name="all_tasks_are_done">Усі заявки виконано</string>
+    <string name="completed_days_not_found">Виконані дні відсутні</string>
+    <string name="status_pending">Очікує</string>
+    <string name="status_completed">Виконано</string>
+
+    <!-- Protocol activities -->
+    <string name="resend_text_tittle">Повторне відправлення протоколу</string>
+    <string name="reset_protocol_number_title">Скидання номера протоколу</string>
+    <string name="no_saved_protocols">Немає збережених протоколів</string>
+    <string name="saved_protocols_count">Збережено протоколів: %d</string>
+    <string name="select_protocol_to_resend">Оберіть протокол для відправки</string>
+    <string name="current_protocol_number">Поточний номер протоколу: %d</string>
+    <string name="new_protocol_number">Новий номер протоколу</string>
+    <string name="reset_protocol_number_confirm">Встановити номер протоколу: %d?</string>
+    <string name="protocol_number_reset">Номер протоколу оновлено</string>
+    <string name="reset">Скинути</string>
+    <string name="manual_resend_protocol_title">Інструкція використання функції повторної відправки протоколів</string>
+    <string name="manual_resend_protocol_message">Користуватися функцією повторного відправлення дозволено лише якщо протокол уже був відправлений раніше і зараз є необхідність надіслати його повторно.</string>
+
+    <!-- Image Activity -->
+    <string name="image_button_save">Записати</string>
+    <string name="image_img_description">Велике фото</string>
+    <string name="image_view_DN">DN:</string>
+    <string name="image_view_liter">Літри:</string>
+    <string name="image_view_liter_val">123,45</string>
+    <string name="image_view_name">Назва фото</string>
+    <string name="image_view_number">Номер:</string>
+    <string name="image_view_number_val">12 456/098-2</string>
+    <string name="image_view_type">Тип:</string>
+    <string name="finish_number">Фініш %d</string>
+
+    <!-- Errors -->
+    <string name="error_counter_info">Помилка вибору інформації про лічильник (тип, DN, виробник)</string>
+    <string name="error_volume_size">Поле "Об\'єм" повинно складати 5 символів</string>
+    <string name="error_year">Необхідно заповнити поле "Рік", 4 символи</string>
+    <string name="check_year">Перевірте значення поля "Рік"</string>
+    <string name="error_building_has_to_be_number">У полі "Номер будинку" повинно бути число</string>
+    <string name="error_apartment_has_to_be_number">У полі "Номер квартири" повинно бути число</string>
+    <string name="has_to_be_number">Номер рахунку на оплату має бути числом</string>
+    <string name="has_to_be_5_digit">Номер рахунку на оплату має складатися з 5 знаків, наприклад 01234</string>
+    <string name="has_to_be_00001_99999">Номер рахунку на оплату має бути в межах від 00001 до 99999</string>
+    <string name="error_page_inserter">Виникла помилка під час отримання фото</string>
+    <string name="error_message">Помилка: %s</string>
+    <string name="error_occurred_no_station">Станцію не знайдено</string>
+    <string name="error_occurred_server_downloading">Виникла помилка під час завантаження з сервера</string>
+    <string name="error_occurred_cities_downloading">Виникла помилка під час завантаження міст</string>
+    <string name="error_occurred_streets_downloading">Виникла помилка під час завантаження вулиць</string>
+    <string name="error_occurred_types_loading">Виникла помилка під час завантаження бази типів приладів з сервера</string>
+    <string name="error_occurred_tests_loading">Виникла помилка під час завантаження бази тестів з сервера</string>
+    <string name="error_occurred_update_checking">Виникла помилка під час перевірки оновлень</string>
+    <string name="error_no_finish_photo">Виникла проблема із завершенням виміру. Якщо програма не отримала фотографію "Фініш" - закрийте програму і відновіть протокол.</string>
+    <string name="error_no_verification_number">Установка не змогла визначити кількість записів</string>
+    <string name="error_type_selection">Помилка вибору типу лічильника</string>
+
+    <!-- Misc -->
+    <string name="search_hint">Пошук...</string>
+    <string name="cancel">Відхилити</string>
+    <string name="dismiss">Скасувати</string>
+    <string name="dismissed">Відхилено</string>
+    <string name="confirm_your_choise">Підтвердіть свій вибір</string>
+    <string name="clean">Очистити</string>
+    <string name="address">Адреса</string>
+    <string name="date">Дата</string>
+    <string name="humidity">Вологість, %</string>
+    <string name="pressure">Тиск</string>
+    <string name="temperature">Температура</string>
+    <string name="cubic_meters">м³/год</string>
+    <string name="for_cold_water">холодної</string>
+    <string name="for_hot_water">гарячої</string>
+    <string name="according_to">відповідно до</string>
+    <string name="hide_more">Сховати</string>
+    <string name="file_loaded">Файл %s завантажено</string>
+    <string name="downloading_update">Виконується скачування оновлення</string>
+    <string name="firmware_update">Оновлення ПЗ установки</string>
+    <string name="firmware_update_available" formatted="false">Доступна нова версія ПЗ установки\nВерсія: %s</string>
+    <string name="date_time_update_after_connection">Оновлення дати і часу установки відбудеться під час наступного під\'єднання до установки</string>
+    <string name="environment_measurement">Зміна параметрів повітря</string>
+    <string name="battery_charge">Заряд батареї: %d%%</string>
+    <string name="calibration_date">Дата калібрування: %s</string>
+    <string name="alert_wrong_date" formatted="false">Дата установки не співпадає з датою планшету.\n\nДата установки: %s\nДата планшету: %s\n\nЯку дату використовувати?</string>
+    <string name="counting_verifications">Виконується підрахунок кількості записів</string>
+    <string name="deleted_tasks_number">Заявок видалено: %d</string>
+</resources>
